@@ -1,0 +1,6 @@
+http://cloudrain21.com/python-functions-to-memorize-1
+
+python 기능 정리
+
+1) heapq library - heap 자료구조 사용 할 때
+2) 
