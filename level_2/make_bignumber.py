@@ -1,29 +1,16 @@
-def solution(number,K):
-    arr = list(number)
-    max_arr= sorted(arr,reverse=True)
-    answer=''
-    length = len(number)-K
+def solution(number,k):
+    stack =[number[0]]
+    
+    for num in number[1:]:
+        while len(stack) >0 and stack[-1]<num and k>0:
+            k-=1
+            stack.pop()
+        stack.append(num)
 
-    while True:
-        for j in range(len(max_arr)):
-            if arr[0] >max_arr[j]:
-                answer+=str(arr[0])
-                arr= arr[1:]
-                break
-            
-            elif max_arr[j] in arr:
-                index =arr.index(max_arr[j]) 
-                if length -len(answer) <= len(arr)-index: 
-                    answer+=str(arr[index])
-                    arr= arr[index+1:]
-                    break    
-            
-        if len(answer) ==length: break
-    return answer
+    if k!=0:
+        stack =stack[:-k]
+    return "".join(stack)
 
 number='1231234'
 K=3
 print(solution(number,K))
-
-
-
