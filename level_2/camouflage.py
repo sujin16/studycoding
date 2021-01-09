@@ -10,7 +10,10 @@ def solution(clothes):
     for val in closet.values():
         answer.append(val)
     result =0
-    answer=[3]
+    answer_len =len(answer)
+    if answer_len ==len(clothes):
+        return sum([comb(answer_len,i)for i in range(1,answer_len+1)])
+
     for i in range(1,len(answer)+1):
         arr= list(combinations(answer,i))
         for a in arr:
