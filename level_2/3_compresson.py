@@ -1,27 +1,17 @@
-import string 
-dic ={ch:n+1 for n,ch in enumerate(string.ascii_uppercase)}
-
-def make_arr(msg):
-    arr =[]
-    for i in range(0,len(msg)): arr.append(msg[0:len(msg)-i])
-    return arr
-
 def solution(msg):
-    answer=[]
-    msg_arr = make_arr(msg)
-    while len(msg)>0:
-        check =True
-        i=0
-        while check or i<len(msg):
-            if msg_arr[i] in dic.keys():
-                answer.append(dic[msg_arr[i]])
-                check =False
-                if i ==0: return answer
-                dic[msg_arr[i-1]] =len(dic.keys())+1
-                msg = msg[len(msg_arr[i]):]
-                msg_arr =make_arr(msg)
-                    
-            i+=1
-
-msg ='TOBEORNOTTOBEORTOBEORNOT'
+    answer = []
+    tmp = {chr(e + 64): e for e in range(1, 27)}
+    num = 27
+    while msg:
+        tt = 1
+        while msg[:tt] in tmp.keys() and tt <= msg.__len__():
+            tt += 1
+        tt -= 1
+        if msg[:tt] in tmp.keys():
+            answer.append(tmp[msg[:tt]])
+            tmp[msg[:tt + 1]] = num
+            num += 1
+        msg = msg[tt:]
+    return answer
+msg ='KAKAO'
 print(solution(msg))

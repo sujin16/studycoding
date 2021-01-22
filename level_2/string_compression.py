@@ -14,8 +14,7 @@ def compression(size,string):
     return len(result)
     
 def solution(s):
-    size = int(len(s)/2)
-    if len(s) ==1: size =1
+    size = int(len(s)/2) if len(s) !=1 else 1:
     min= compression(size,s)
     size-=1 
     while size>0:
