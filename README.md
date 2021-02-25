@@ -19,7 +19,7 @@
 
 - 상하좌우
 - 시각 **
-- 왕실의 나이트 
+- 왕실의 나이트  [trip_guild.py](https://github.com/sujin16/studycoding/blob/main/code/trip_guild) 
 - 문자열 재정렬 
 
 
