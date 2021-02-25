@@ -52,7 +52,17 @@ print(bisect.bisect_left(nums, n))
 print(bisect.bisect_right(nums, n))
 
 
+# dict 관련: finding the keys of all the largest values in python dictionary?
+x ={0: 0, 1: 4, 2: 0, 3: 2, 4: 2, 5: 4}
 
+maximum = max(x.values())
+keys = [key for key, value in x.items() if value == maximum]
+print(keys)  # => [1, 5]
+
+# 크루스칼 
+# 플로이드
+# 프림 
+# DFS, BFS
 
 
 
