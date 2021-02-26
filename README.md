@@ -45,12 +45,29 @@ CollectionFrameWork url : https://joooootopia.tistory.com/13
 
 
 
-## 그래프 탐색 알고리즘 : DFS , BFS
+### 그래프 탐색 알고리즘 : DFS , BFS (2021.2.26 ~)
 
 DFS(깊이우선탐색)
 1. 탐색 시작 노드를 스택에 삽입하고 방문처리
 2. 스택의 최상단 노드에 방문하지 않은 인접한 노드가 하나라도 있으면 그 노드를 스택에 넣고 방문 처리. 방문하지 않은 인접노드가 없으면 스택에서 최상단 노드를 꺼냄
-3. 더  이상 과정을 수행할 수 없을 때 까지 반복
+3. 더  이상 2. 과정을 수행할 수 없을 때 까지 반복
+
+Code : [DFS.Java](https://github.com/ndb796/python-for-coding-test/blob/master/5/8.java) &nbsp; &nbsp; [DFS.py](https://github.com/ndb796/python-for-coding-test/blob/master/5/8.py)
+
+BFS(너비우선탐색) : 가까운 노드를 우선적으로 방문 !! 
+1. 탐색 시작 노드를 큐에 삽입하고 방문처리를 한다
+2. 큐에소 노드를 꺼낸 뒤에 해당 노드의 인접 노드 중 방문하지 않은 노드를 큐에 삽입하고 방문 처리
+3. 더 이상 2. 이 과정이 수행할 수 없을 때까지 반복
+
+Code : [BFS.java](https://github.com/ndb796/python-for-coding-test/blob/master/5/9.java) &nbsp; &nbsp; [BFS.py](https://github.com/ndb796/python-for-coding-test/blob/master/5/9.py)
+
+-음료수 얼려 먹기 
+
+
+Dijstra Algorithm
+
+Shortest Path 찾기
+
 
 
 
