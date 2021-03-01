@@ -61,16 +61,29 @@ BFS(너비우선탐색) : 가까운 노드를 우선적으로 방문 !!
 
 Code : [BFS.java](https://github.com/ndb796/python-for-coding-test/blob/master/5/9.java) &nbsp; &nbsp; [BFS.py](https://github.com/ndb796/python-for-coding-test/blob/master/5/9.py)
 
--음료수 얼려 먹기 
+-음료수 얼려 먹기 ** 
 
 
-Dijstra Algorithm
+-미로찾기 ** 
 
-Shortest Path 찾기
 
-### 정렬 알고리즘 : 선택, 삽입,퀵, 계수 
+
+
+### 정렬 알고리즘 : 선택, 삽입,퀵, 계수 (2021.03.01 ~)
 
 - 두 배열의 원소 교체
+
+
+
+### 이진 탐색 알고리즘
+순차 탐색 : 앞에서부터 데이터를 하나씩 확인하는 방법
+이진 탐색: 리스트에서 탐색 범위를 절반씩 좁혀가며 데이터를 탐색 하는 방법
+
+- 파라메트릭 서치 : 최적화 문제를 결정문제(예 ,아니요)로 바꾸어 해결하는 기법
+- 떡볶이 떡 만들기 
+
+
+
 
 ### 다이나믹 프로그래밍 (2021.2.27 ~) 
 
