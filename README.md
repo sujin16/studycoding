@@ -75,12 +75,14 @@ Code : [BFS.java](https://github.com/ndb796/python-for-coding-test/blob/master/5
 
 
 
-### 이진 탐색 알고리즘
+### 이진 탐색 알고리즘 (2021.03.01 ~)
 순차 탐색 : 앞에서부터 데이터를 하나씩 확인하는 방법
 이진 탐색: 리스트에서 탐색 범위를 절반씩 좁혀가며 데이터를 탐색 하는 방법
 
 - 파라메트릭 서치 : 최적화 문제를 결정문제(예 ,아니요)로 바꾸어 해결하는 기법
-- 떡볶이 떡 만들기 
+- 떡볶이 떡 만들기 [binary_search.py](https://github.com/sujin16/studycoding/blob/main/code/binary_search.py) &nbsp; &nbsp;&nbsp; &nbsp;[binarySearch1.java](https://github.com/sujin16/studycoding/blob/main/code/binarySearch1.java)
+- 정렬된 배열에서 특정 수의 개수 구하기 [binary_search2.py](
+https://github.com/sujin16/studycoding/blob/main/code/binary_search2.py) &nbsp; &nbsp;&nbsp; &nbsp;[binarySearch2.java](https://github.com/sujin16/studycoding/blob/main/code/binarySearch2.java)
 
 
 
