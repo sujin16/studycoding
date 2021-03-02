@@ -2,27 +2,6 @@
 # 코딩 테스트 & 알고리즘 공부
 
 
-## JAVA 자료구조
-``` java
-//1.Stack
-Stack<Integer>s = new Stack<>();
-s.push(3);
-s.push(1);
-while(!s.empty()){
-  s.pop();
-}
-```
-``` java
-//2.Queue
-Queue<Integer>q = new Queue<>();
-q.offer(3);
-q.offer(3);
-while(!q.isEmpty()){
-  s.poll();
-}
-```
-CollectionFrameWork url : https://joooootopia.tistory.com/13
-
 
 ### 그리디 알고리즘(2021.2.25 ~)
 
@@ -108,5 +87,14 @@ https://github.com/sujin16/studycoding/blob/main/code/binary_search2.py) &nbsp; 
 ### 최단경로 알고리즘 (2021.3.2 ~ ) 
 
 다익스트라 : 음의 간선이 없을 때, 특정한 노드에서 출발하여 다른 모든 노드를 가는 최단경로. 그리드 알고리즘으로 분류. 방문하지 않은 노드 중에서 최단 거리가 가장 짧은 노드를 선택
+
+
+
+플로이드 워셜 : 모든 노드에서 다른 노드 까지의 최단 경로를 모두 계산. 2차원 테이블에 최단 거리 정보를 저장. 간선의 정보가 적을 때 사용.각 단계마다 특정한 노드 k 를 거쳐 가는 경우를 확인 
+
+
+
+
+
 
 
