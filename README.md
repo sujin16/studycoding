@@ -99,6 +99,6 @@ https://github.com/sujin16/studycoding/blob/main/code/binary_search2.py) &nbsp; 
 - 1로 만들기
 - 효율적인 화폐 구성
 - 금광
-- 병사 
+- 병사 [dynamic5.java](https://github.com/sujin16/studycoding/tree/main/code/dynamic5.java)&nbsp; &nbsp;&nbsp; &nbsp; [dynamic5.py](https://github.com/sujin16/studycoding/tree/main/code/dynamic5.py)
 
 
