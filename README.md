@@ -102,3 +102,11 @@ https://github.com/sujin16/studycoding/blob/main/code/binary_search2.py) &nbsp; 
 - 병사 [dynamic5.java](https://github.com/sujin16/studycoding/tree/main/code/dynamic5.java)&nbsp; &nbsp;&nbsp; &nbsp; [dynamic5.py](https://github.com/sujin16/studycoding/tree/main/code/dynamic5.py)
 
 
+
+
+
+### 최단경로 알고리즘 (2021.3.2 ~ ) 
+
+다익스트라 : 음의 간선이 없을 때, 특정한 노드에서 출발하여 다른 모든 노드를 가는 최단경로. 그리드 알고리즘으로 분류. 방문하지 않은 노드 중에서 최단 거리가 가장 짧은 노드를 선택
+
+
